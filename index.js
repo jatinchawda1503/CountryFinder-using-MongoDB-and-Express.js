@@ -18,11 +18,9 @@ app.get('/', (request, response) => {
 
 
 
+
+
+
 app.listen(3000);
 
-//[4:41 PM] Loïc Dandoy
-//First query: Send back the number of countries in the database
-
-//[4:42 PM] Loïc Dandoy
-//Second query: Send back all the country with a name started by a strung given by the user
 
