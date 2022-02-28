@@ -12,10 +12,10 @@ const CountryModel = mongoose.model('Country', {
     population: {
         type: Number
     },
-    continent: {
+    continent: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Continent'
-    }
+    }]
 });
 
 module.exports = CountryModel;

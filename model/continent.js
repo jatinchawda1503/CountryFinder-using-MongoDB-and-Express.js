@@ -11,5 +11,5 @@ const ContinentModel = mongoose.model('Continent', {
         ref: 'Country'
     }]
 });
-
+    
 module.exports = ContinentModel;

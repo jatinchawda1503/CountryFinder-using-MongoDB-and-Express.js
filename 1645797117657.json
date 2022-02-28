@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Afghanistan",
+    "isoCode": "AFG",
+    "__v": 0
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "isoCode": "ATG",
+    "__v": 0
+  },
+  {
+    "name": "Austria",
+    "isoCode": "AUT",
+    "__v": 0
+  },
+  {
+    "name": "Belgium",
+    "isoCode": "BEL",
+    "__v": 0
+  },
+  {
+    "name": "Egypt",
+    "isoCode": "EGY",
+    "__v": 0
+  },
+  {
+    "name": "France",
+    "isoCode": "FRA",
+    "__v": 0
+  },
+  {
+    "name": "Germany",
+    "isoCode": "DEU",
+    "__v": 0,
+    "population": 83222442
+  },
+  {
+    "name": "Gibraltar",
+    "isoCode": "GIB",
+    "__v": 0
+  },
+  {
+    "name": "Guatemala",
+    "isoCode": "GTM",
+    "__v": 0
+  }
+]

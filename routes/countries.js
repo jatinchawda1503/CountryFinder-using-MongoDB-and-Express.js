@@ -50,10 +50,10 @@ router.put('/:id', async (request, response) => {
     const country = await CountryModel.findOneAndUpdate({
         _id: countryId
     },{
-        name,
-        isoCode,
-        population,
-        continent
+        name : name,
+        isoCode : isoCode,
+        population : population,
+        continent: continent
     },{
         new: true
     });
@@ -89,7 +89,7 @@ router.get('/filter/population', async function (req, res) {
                 _id:0,
                 'population':1
             }).sort("population") 
-            
+
         res.status(200).json(countries);
 })
 
